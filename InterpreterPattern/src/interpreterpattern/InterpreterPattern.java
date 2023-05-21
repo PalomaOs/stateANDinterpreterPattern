@@ -21,7 +21,7 @@ public class InterpreterPattern {
 
     public void interpret(String input) {
         for (int i = 0; i < 2; i++) {
-            System.out.println("\nIngresa una opcion (1 or 2)");
+            System.out.println("\nIngresa una opcion (1 o 2)");
             Scanner in = new Scanner(System.in);
             String c = in.nextLine();
             if (c.equals("1")) {
